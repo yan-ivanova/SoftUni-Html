@@ -1,0 +1,258 @@
+th, td, span {
+    margin: 0;
+}
+
+.outTable {
+    background-color: #00923e;
+    width: 712px;
+}
+
+.inTable {
+    margin: 6px;
+    border-spacing: 0;
+    /*border-collapse: collapse;*/
+}
+
+.tbHead {
+    background-color: #f8c711;
+    height: 36px;
+    font-family: Tahoma;
+    font-size: 18px;
+    font-weight: bold;
+    padding: 10px;
+}
+
+
+.rwhite {
+    background-color: #ffffff;
+    height: 38px;
+    font-family: Tahoma;
+    font-size: 12px;
+}
+
+.rgray {
+    background-color: #c8c8c8;
+    height: 38px;
+    font-family: Tahoma;
+    font-size: 12px;
+}
+
+.fcol {
+    width: 116px;
+}
+
+.scol {
+    width: 70px;
+}
+
+.tcol {
+    width: 120px;
+}
+
+.frcol {
+    width: 101px;
+}
+
+.ffcol {
+    width: 90px;
+}
+
+.sscol {
+    width: 98px;
+}
+
+.lcol {
+    width: 40px;
+}
+
+.tlrow {
+    border-top-left-radius: 10px;
+}
+
+.trrow {
+    border-top-right-radius: 10px;
+}
+
+.blrow {
+    border-bottom-left-radius: 10px;
+}
+
+.brrow {
+    border-bottom-right-radius: 10px;
+}
+
+tr th, tr.rwhite td, tr.rgray td {
+    border: 1px;
+    border-color: #000000;
+    border-style: solid;
+}
+
+    tr td:nth-child(1), tr th:nth-child(1) {
+        text-align: right;
+        padding-right: 3px;
+    }
+
+tr td:nth-child(2), th:nth-child(2) {
+    text-align: center;
+}
+
+tr td:nth-child(3), th:nth-child(3) {
+    text-align: left;
+    padding-left: 4px;
+}
+
+tr td:nth-child(4), th:nth-child(4), th:nth-child(5) {
+    text-align: center;
+}
+
+tr td:nth-child(5) {
+    text-align: right;
+    padding-right: 5px;
+}
+
+tr td:nth-child(6) {
+    text-align: center;
+}
+
+tr td:nth-child(7) {
+    text-align: left;
+    padding-left: 5px;
+}
+
+tr td:nth-child(8) {
+    text-align: center;
+}
+
+.redInput {
+    list-style-type: numeric;
+    font-family: Tahoma;
+    font-size: 12px;
+    border: 1px;
+    border-style: groove;
+    border-color: #c7c7c7;
+    color: #ff0000;
+    background-color: #dcdcdc;
+    width: 32px;
+    height: 26px;
+}
+
+.greenInput {
+    list-style-type: numeric;
+    font-family: Tahoma;
+    font-size: 12px;
+    border: groove 1px;
+    border-color: #c7c7c7;
+    color: #008000;
+    background-color: #ffffff;
+    width: 32px;
+    height: 26px;
+}
+
+.greenB {
+    background-image: url(../imgP31/greenB.png);
+    background-repeat: no-repeat;
+    border: none;
+    width: 25px;
+    height: 25px;
+    border-radius: 14px;
+}
+
+.redB {
+    background-image: url(../imgP31/redB.png);
+    background-repeat: no-repeat;
+    border: none;
+    width: 25px;
+    height: 25px;
+    border-radius: 14px;
+}
+
+
+.cBrasil {
+    width: 20px;
+    height: 18px;
+    background-image: url(../imgP31/Brasil.png);
+    background-repeat: no-repeat;
+    display: inline-block;
+    background-position: bottom;
+}
+
+.cMexico {
+    width: 20px;
+    height: 18px;
+    background-image: url(../imgP31/Mexico.png);
+    background-repeat: no-repeat;
+    display: inline-block;
+    background-position: bottom;
+}
+
+.cSpain {
+    width: 23px;
+    height: 18px;
+    background-image: url(../imgP31/Spain.png);
+    background-repeat: no-repeat;
+    display: inline-block;
+    background-position: bottom;
+}
+
+.cNitherlands {
+    width: 23px;
+    height: 18px;
+    background-image: url(../imgP31/Nitherlands.png);
+    background-repeat: no-repeat;
+    display: inline-block;
+    background-position: bottom;
+}
+
+.cItaly {
+    width: 23px;
+    height: 18px;
+    background-image: url(../imgP31/Italy.png);
+    background-repeat: no-repeat;
+    display: inline-block;
+    background-position: bottom;
+}
+
+.cEngland {
+    width: 23px;
+    height: 18px;
+    background-image: url(../imgP31/England.png);
+    background-repeat: no-repeat;
+    display: inline-block;
+    background-position: bottom;
+}
+
+.cArgentina {
+    width: 23px;
+    height: 18px;
+    background-image: url(../imgP31/Argentina.png);
+    background-repeat: no-repeat;
+    display: inline-block;
+    background-position: bottom;
+}
+
+.cBosnia {
+    width: 23px;
+    height: 18px;
+    background-image: url(../imgP31/Bosnia.png);
+    background-repeat: no-repeat;
+    display: inline-block;
+    background-position: bottom;
+}
+
+.cGermany {
+    width: 23px;
+    height: 18px;
+    background-image: url(../imgP31/Germany.png);
+    background-repeat: no-repeat;
+    display: inline-block;
+    background-position: bottom;
+}
+
+.cPortugal {
+    width: 23px;
+    height: 18px;
+    background-image: url(../imgP31/Portugal.png);
+    background-repeat: no-repeat;
+    display: inline-block;
+    background-position: bottom;
+}
