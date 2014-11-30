@@ -1,0 +1,215 @@
+body {
+    background-image: url(../imgP32/colorful_dots_on_black.jpg);
+    font-family: Tahoma, sans-serif;
+    height: 900px;
+    width: 650px;
+    margin: 0;
+}
+
+    body > header {
+        font-size: 24px;
+        font-weight: 800;
+        color: #ffff00;
+        height: 38px;
+        width: 650px;
+        text-align: center;
+        background: -moz-linear-gradient(left, #ff0000 0%, #ff0000 33%, #008000 33%, #008000 67%, #0000ff 67%, #0000ff 100%); /* FF3.6+ */
+        background: -webkit-linear-gradient(left, #ff0000 0%,#ff0000 33%,#008000 33%,#008000 67%, #0000ff 67%,#0000ff 100%); /* Chrome10+,Safari5.1+ */
+        background: -ms-linear-gradient(left, #ff0000 0%,#ff0000 33%,#008000 33%,#008000 67%, #0000ff 67%, #0000ff 100%); /* IE10+ */
+    }
+
+aside {
+    position: absolute;
+    width: 175px;
+    height: 165px;
+    background-color: rgba(230, 230, 230,0.9);
+    border-radius: 15px;
+    margin-left: 10px;
+    margin-top: 15px;
+}
+
+nav > header {
+    font-size: 13px;
+    font-weight: bold;
+    text-decoration: underline;
+    text-align: left;
+    padding-top: 5px;
+    padding-left: 5px;
+    padding-bottom: 3px;
+}
+
+ul {
+    padding-left: 20px;
+    margin: 0;
+    list-style-image: url(../imgP32/tick.png);
+}
+
+li {
+    font-size: 9px;
+    text-align: left;
+    font-weight: bold;
+    margin: 7px;
+    padding: 2px;
+}
+
+    li > a {
+        color: #000000;
+        text-decoration: none;
+    }
+
+    li.a:visited {
+        text-decoration: none;
+        color: #989ea6;
+    }
+
+    li:nth-child(1):hover {
+        background-color: #ff0000;
+        border-radius: 3px;
+        height: 10px;
+    }
+
+    li:nth-child(2):hover {
+        background-color: #ffa500;
+        border-radius: 3px;
+        height: 10px;
+    }
+
+    li:nth-child(3):hover {
+        background-color: #ffff00;
+        border-radius: 3px;
+        height: 10px;
+    }
+
+    li:nth-child(4):hover {
+        background-color: #008000;
+        border-radius: 3px;
+        height: 10px;
+    }
+
+    li:nth-child(5):hover {
+        background-color: #0000ff;
+        border-radius: 3px;
+        height: 10px;
+    }
+
+    li:nth-child(6):hover {
+        background-color: #800080;
+        border-radius: 3px;
+        height: 10px;
+    }
+
+#webColors {
+    background-color: #ff0000;
+    border-radius: 3px;
+    height: 29px;
+    color: #ffffff;
+    text-align: left;
+    padding-left: 5px;
+    padding-top: 7px;
+    margin: 5px;
+}
+
+#webSafeColors {
+    background-color: #ffa500;
+    border-radius: 3px;
+    height: 29px;
+    color: #000000;
+    text-align: left;
+    padding-left: 5px;
+    padding-top: 7px;
+    margin: 5px;
+}
+
+#RGB {
+    background-color: #ffff00;
+    border-radius: 3px;
+    height: 29px;
+    color: #000000;
+    text-align: left;
+    padding-left: 5px;
+    padding-top: 7px;
+    margin: 5px;
+}
+
+#RGBA {
+    background-color: #008000;
+    border-radius: 3px;
+    height: 29px;
+    color: #ffffff;
+    text-align: left;
+    padding-left: 5px;
+    padding-top: 7px;
+    margin: 5px;
+}
+
+#HSLHSV {
+    background-color: #0000ff;
+    border-radius: 3px;
+    height: 29px;
+    color: #ffffff;
+    text-align: left;
+    padding-left: 5px;
+    padding-top: 7px;
+    margin: 5px;
+}
+
+#lorem {
+    background-color: #800080;
+    border-radius: 3px;
+    height: 29px;
+    color: #ffffff;
+    text-align: left;
+    padding-left: 5px;
+    padding-top: 7px;
+    margin: 5px;
+}
+
+section {
+    position: absolute;
+    left: 205px;
+    top: 53px;
+}
+
+article {
+    width: 425px;
+    background-color: rgba(230, 230, 230,0.9);
+    border-radius: 15px;
+    margin-bottom: 5px;
+    padding: 5px;
+}
+
+div {
+    color: #000000;
+    font-size: 10px;
+    margin: 5px;
+}
+
+span {
+    color: #000000;
+    font-size: 10px;
+    margin: 5px;
+}
+
+div::first-letter {
+    font-size: 250%;
+}
+
+div::first-line {
+    font-style: italic;
+    padding-bottom: 15px;
+}
+
+footer > a {
+    font-style: italic;
+    font-size: 10px;
+    margin: 5px;
+    color: #a0a3a6;
+    text-decoration: underline;
+}
+
+[lang] {
+    font-style: italic;
+    font-size: 10px;
+    color: #5255a4;
+    margin: 5px;
+}
